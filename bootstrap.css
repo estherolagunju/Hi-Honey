@@ -1,8 +1,180 @@
 body{
-    margin: 0;
-    /* padding-left: 5%;
-    padding-right: 5%; */
+    margin-left:5%;
+    padding-right: 5%
+    font-family:poppins;
+} 
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: F5F5F5;
 }
-.navbar{
-    background-color: aquamarine;
+
+.butt{
+    border-radius: 30px ;
+    height: 33px;
+    width: 92Spx;
+    font-size: 12px;
+    border:0;
+    background-color: rgb(238, 238, 238);
+    font-weight: bolder !important;
+    color: black;
+}
+.neck {
+    word-spacing: 100px !important;
+    font-size: 12px;
+        
+}
+    .eye{
+        font-size: small;
+    }
+    .hand{
+        font-weight: bolder ;
+        text-decoration-line: underline;
+    }
+
+    #hero{
+        background-color:  F5F5F5;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        height: 70%;
+        width: 100%;
+        flex-direction: column;
+    }
+    .unity{
+        background-color:   F5F5F5;
+        width: 100%;
+        height:40%;
+        line-height: 7px !important;
+    }
+    .h{
+        font-size: 150px;
+        font-weight: bolder;
+        color: rgb(235, 181, 46);
+    }
+    .e{
+        font-size: 150px;
+        font-weight: bolder;
+        color: rgb(240, 137, 89);
+    }
+    .l{
+        font-size: 150px;
+        font-weight: bolder;
+        color: rgb(52, 221, 151);
+    }
+    .o{
+        font-size: 150px;
+        font-weight: bolder;
+        color: rgb(189, 36, 8);
+    }
+.f{
+    font-size: 150px;
+        font-weight: bolder;
+        color: rgb(240, 121, 65);
+}
+
+#domain{
+    line-height: 5px;
+    color: rgb(117, 114, 114) ;
+    height: 80px;
+}
+#show{
+    border-radius: 50px ;
+    height: 30px;
+    width: 130px;
+    font-size: 10px;
+    font-weight: bolder !important;
+    color: white;
+    margin-top: 0%;
+}
+.heroine{
+    background-color: rgb(240, 238, 238); 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    box-shadow: rgb(53, 52, 52);
+
+
+}
+#card1{
+    height: 50%;
+    width:90% !important ;
+    top:-80px;
+    margin-right: 2px;
+}
+#a1{
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(240, 121, 65);
+}
+#b{
+    font-weight: bolder;
+    font-size: 15px;
+    color: black;
+    margin-top: 40%;
+}
+#c{
+    font-size: 12px;
+    color: rgb(141, 138, 138);
+    margin-top: 10%;
+}
+
+#card2{
+    height: 55%;
+    width:90% !important ;
+    margin-right: 2px;
+    margin-top: 2%;
+}
+#a2{
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(236, 208, 81);
+}
+
+#card3{
+    height: 50%;
+    width:100% !important ;
+    margin-left: 50px;
+    margin-top: 50%;
+}
+#a3{
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(71, 230, 163); 
+}
+
+.champ{
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+    background-color:  F5F5F5;
+    height: 100%;
+    width: 100%;
+}
+#inner{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.footer{
+    background-color:  F5F5F5;
+        height: 70%;
+        width: 100%;
+        flex-direction: column;
+}
+.inc{
+    float: left !important;
+    color:rgb(141, 138, 138); 
+    font-size: 8px;
+    margin-top: 20%;
+}
+.finishing{
+    float: right !important;
+    color:rgb(141, 138, 138);
+    font-size: 8px;
+    word-spacing: 5px;
+    margin-top: 20%;
 }
